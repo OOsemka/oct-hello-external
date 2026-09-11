@@ -16,5 +16,9 @@ spec:
   versions:
     - version: "1.0.0"
       channel: stable
+      openshift: ["4.21"]
+      image: quay.io/cjanisze/oct-hello-external:1.0.0-ocp4.21
+    - version: "1.0.0"
+      channel: stable
       openshift: ["4.22"]
       image: quay.io/cjanisze/oct-hello-external:1.0.0-ocp4.22
