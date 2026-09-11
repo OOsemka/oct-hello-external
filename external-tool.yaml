@@ -1,0 +1,20 @@
+apiVersion: communitytools.io/v1alpha1
+kind: CommunityTool
+metadata:
+  name: oct-hello-external
+spec:
+  displayName: Hello External
+  description: >-
+    Example external OCT module. This was added via the "Add external extension"
+    button, not from the community catalog.
+  category: management
+  source: external
+  git: https://github.com/OOsemka/oct-hello-external
+  consolePlugin: oct-hello-external
+  href: /community-tools/management/hello-external
+  defaultChannel: stable
+  versions:
+    - version: "1.0.0"
+      channel: stable
+      openshift: ["4.22"]
+      image: quay.io/cjanisze/oct-hello-external:1.0.0-ocp4.22

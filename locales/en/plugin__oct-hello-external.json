@@ -1,0 +1,11 @@
+{
+  "Community project. Not officially supported by Red Hat.": "Community project. Not officially supported by Red Hat.",
+  "OpenShift Community Tools is unofficial UX enhancements for the OpenShift Console.": "OpenShift Community Tools is unofficial UX enhancements for the OpenShift Console.",
+  "Hello External": "Hello External",
+  "Hello External!": "Hello External!",
+  "Management": "Management",
+  "This is an example of an external (non-catalog) OCT module.": "This is an example of an external (non-catalog) OCT module.",
+  "It was designed to be installed via the storefront's \"Add external extension\" button by pasting a CommunityTool YAML definition — not from the community catalog.": "It was designed to be installed via the storefront's \"Add external extension\" button by pasting a CommunityTool YAML definition — not from the community catalog.",
+  "Use this as a template when building your own external OCT extensions.": "Use this as a template when building your own external OCT extensions.",
+  "Source:": "Source:"
+}

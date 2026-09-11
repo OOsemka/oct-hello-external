@@ -1,0 +1,6 @@
+/* Hello External tool. Prefix: he- */
+
+.he-lead {
+  max-width: 48rem;
+  color: var(--pf-t--global--text--color--subtle, #6a6e73);
+}
