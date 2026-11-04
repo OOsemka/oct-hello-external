@@ -27,7 +27,9 @@ Displays a single page with:
 3. Paste the contents of [`external-tool.yaml`](external-tool.yaml)
 4. The storefront creates the Namespace, Deployment, Service, and ConsolePlugin
 
-## Contributing — cluster-portable code
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md): setup, `yarn verify`, testing on your own cluster, the project rules and what maintainers do at release.
 
 Do **not** hardcode environment-specific values. See `.cursor/rules/oct-no-env-hardcoding.mdc`.
 
